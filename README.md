@@ -21,9 +21,11 @@
 
 ## Datasets and features
 
-1 train_features has metadata for an individual job posting. The "jobId" column represents a unique identifier for the job posting.
-2 train_salaries has salaries for job postings. Each row associates a "jobId" with a "salary".
-3 test_features contains metadata for an individual job posting. We have to predict the salaries for the job postings provided in the csv file test_features.
+1. The train_features has metadata for an individual job posting. The "jobId" column represents a unique identifier for the job posting.
+
+2. The train_salaries has salaries for job postings. Each row associates a "jobId" with a "salary".
+
+3. The test_features contains metadata for an individual job posting. We have to predict the salaries for the job postings provided in the csv file test_features.
 
 *	JobID
 *	CompanyId
@@ -72,7 +74,7 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Gradient Boosting**: MSE = 398.37
 
 ## Production 
-  Selected the model Gradient Boosting for salary prediction. Obtained predictions using the model and stored the file in csv format.
+  Selected the model Random Forest for salary prediction. Obtained predictions using the model and stored the file in csv format.
 
 
 ![image](https://user-images.githubusercontent.com/75549127/110562356-908eda00-8106-11eb-95a9-7252d9322715.png)
