@@ -49,7 +49,7 @@
 
 ## EDA
 
-I looked at the corralation between the variables.
+For checking the correlation between each input and the output variable, we used regplot for examining numerical variables and boxplot for categorical variables. The notebook has details on that but here I included the heatmap for the purpose of simplicity to glance the relation between all variables. 
 
 
 ![image](https://user-images.githubusercontent.com/75549127/110561082-4f95c600-8104-11eb-8b19-4c3de86b7161.png)
