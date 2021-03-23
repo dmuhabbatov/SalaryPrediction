@@ -69,32 +69,22 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Gradient Boosting**: MSE = 398.37
 
 ## Production 
-  Selected the model Random Forest for salary prediction. Obtained predictions using the model and stored the file in csv format.
+  Selected the model Random Forest for salary prediction. Obtained predictions using the model and stored the file in csv format. 
+    
+
+![image](https://user-images.githubusercontent.com/75549127/110562356-908eda00-8106-11eb-95a9-7252d9322715.png)
+
+
+
+## Conclusion
   
-  
-  ## Conclusion
-  
-  After performing the data cleaning, EDA and predicting the model with the random forest algorithm, I found that    
-  * Reviewed and cleaned the dataset by removing not important rows and features.
-  * * Used 3 data sets with 1,000,000 rows: train_features.csv, train_salaries.csv (target) and test_features.csv
-* Performed Exploratory Data Anlysis
-* Engeneered features to convert categorial variables into numerical and made them ready for machine learning process. 
-* Used Linear Regression, Random Forest and GradientBoosting algorithms for model building. Pipeline and transformation was used too. 
-* Used MSE as accruacy metric to see which algorithm performs better on the model. 
-* Fit/trained the model with the lowest MSE on the trained data and made prediction on the test dataset.
-* Found the most important feature impacting the salary (target feature).
-  
-  
-  ## Code and Resources Used 
+  After performing the EDA and predicting the model with the random forest algorithm and looking at the feature importance analysis, we can conclude that "year_of_experience" is the most will have the highest impact on the target (salary).      
+ 
+
+ ## Code and Resources Used 
 **Python Version:** Python 3 (Jupyter Notebook)
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn
 * Google
 * Website: Data Science Dream Job portfolio building 
 * Book: Data Preparation for Machine Learning. Jason Brownlee
 * other Data Science projects
-
-
-![image](https://user-images.githubusercontent.com/75549127/110562356-908eda00-8106-11eb-95a9-7252d9322715.png)
-
-We found that "years_of_experieince" has the highest impact on salary.
-
