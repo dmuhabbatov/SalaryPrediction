@@ -1,25 +1,20 @@
-# Salary Prediction: Project Overview
-
-  Problem Definition: Examining a set of job postings with salaries and then predicting salaries for a new set of job postings.  
+# Salary Prediction: Project Contents 
   
-* Used 3 data sets with 1,000,000 rows: train_features.csv, train_salaries.csv (target) and test_features.csv
-* Reviewed and cleaned the dataset by removing not important rows and features.
-* Performed EDA to see the correlation between the input features and their relationship with the target feature(salary). 
-* Engeneered features to convert categorial variables into numerical and made them ready for machine learning process. 
-* Used Linear Regression, Random Forest and GradientBoosting algorithms for model building. Pipeline and transformation was used too. 
-* Used MSE as accruacy metric to see which algorithm performs better on the model. 
-* Fit/trained the model with the lowest MSE on the trained data and made prediction on the test dataset.
-* Found the most important feature impacting the salary (target feature).
+* The problem Definition
+* Data Quality Check
+* Exploratory Data Analysis
+* Model Building 
+* Model Performance 
+* Prediction and Production
+* Conclusion
 
-## Code and Resources Used 
-**Python Version:** Python 3 (Jupyter Notebook)
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn
-* Google
-* Website: Data Science Dream Job portfolio building 
-* Book: Data Preparation for Machine Learning. Jason Brownlee
-* other Data Science projects
 
-## Datasets and features
+## Problem Definition:
+
+Examining a set of job postings with salaries and then predicting salaries for a new set of job postings. Salary prediction is really important for companies to facilitate the budget projection and for future staff planning. Thus, analysing and finding the main factors that would impact on salary and making predictions, will help companies to solve this problem.   
+
+
+## Datasets and features. 
 
 1. The train_features has metadata for an individual job posting. The "jobId" column represents a unique identifier for the job posting.
 
@@ -75,6 +70,28 @@ The Random Forest model far outperformed the other approaches on the test and va
 
 ## Production 
   Selected the model Random Forest for salary prediction. Obtained predictions using the model and stored the file in csv format.
+  
+  
+  ## Conclusion
+  
+  After performing the data cleaning, EDA and predicting the model with the random forest algorithm, I found that    
+  * Reviewed and cleaned the dataset by removing not important rows and features.
+  * * Used 3 data sets with 1,000,000 rows: train_features.csv, train_salaries.csv (target) and test_features.csv
+* Performed Exploratory Data Anlysis
+* Engeneered features to convert categorial variables into numerical and made them ready for machine learning process. 
+* Used Linear Regression, Random Forest and GradientBoosting algorithms for model building. Pipeline and transformation was used too. 
+* Used MSE as accruacy metric to see which algorithm performs better on the model. 
+* Fit/trained the model with the lowest MSE on the trained data and made prediction on the test dataset.
+* Found the most important feature impacting the salary (target feature).
+  
+  
+  ## Code and Resources Used 
+**Python Version:** Python 3 (Jupyter Notebook)
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn
+* Google
+* Website: Data Science Dream Job portfolio building 
+* Book: Data Preparation for Machine Learning. Jason Brownlee
+* other Data Science projects
 
 
 ![image](https://user-images.githubusercontent.com/75549127/110562356-908eda00-8106-11eb-95a9-7252d9322715.png)
