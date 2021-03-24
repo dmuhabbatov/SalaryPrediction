@@ -55,7 +55,7 @@ Based on the above heatmap we see that the jobType is most strongly correlated w
 
 Removed the JobId feature as it is has unique Id for individuals and then transformed the categorical variables into dummy variables. Performed one_hot_encoding on both train and test sets.    
 
-Tried three different models, used 5-fold cross validation and measured MSE as evaluation metric.
+Tried three different models, applied 5-fold cross validation and measured MSE as evaluation metric.
 
 *	**Linear Regression**
 *	**Gradient Boosting**
@@ -68,7 +68,7 @@ The Random Forest model far outperformed the other approaches.
 *	**Gradient Boosting**: MSE = 398.37
 
 ## Production 
-  Selected the model Random Forest for salary prediction. Obtained predictions using the model and stored the file in csv format. The prediction file is also saved on my Github profile under Production File. 
+  Selected the model Random Forest for salary prediction. Obtained predictions using the model and stored the file in csv format. The prediction file is also saved here on my repository.
     
 
 ![image](https://user-images.githubusercontent.com/75549127/110562356-908eda00-8106-11eb-95a9-7252d9322715.png)
