@@ -69,7 +69,9 @@ The Random Forest model far outperformed the other approaches.
 
 ## Prediction and Production 
 
-  Selected the Random Forest model for salary prediction. Obtained predictions using the model and stored the file in csv format. The prediction file is also saved here on my repository. Finally analysed the feature importance method using bar plot:  
+  Selected the Random Forest model for salary prediction. Obtained predictions using the model and stored the file in csv format. The prediction file is also saved here on my repository: https://github.com/dmuhabbatov/SalaryPrediction/blob/main/predictions.csv 
+ 
+ Finally analysed the feature importance method using bar plot:  
     
 
 ![image](https://user-images.githubusercontent.com/75549127/110562356-908eda00-8106-11eb-95a9-7252d9322715.png)
