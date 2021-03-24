@@ -77,7 +77,7 @@ The Random Forest model far outperformed the other approaches on the test and va
 
 ## Conclusion
   
-  After performing the EDA and predicting the model with the random forest algorithm and looking at the feature importance analysis, we can conclude that "year_of_experience" will have the highest impact on the target (salary) followed by "jobtype". This prediction result and the feautre imprtance chart can help the companies to make better decision.      
+  After performing the EDA and predicting the model with the random forest algorithm and looking at the feature importance analysis, we can conclude that "year_of_experience" will have the highest impact on the target (salary) followed by "jobtype". This prediction result and the feature imprtance chart can help the companies to make better decision.      
 
  ## Code and Resources Used 
 **Python Version:** Python 3 (Jupyter Notebook)
