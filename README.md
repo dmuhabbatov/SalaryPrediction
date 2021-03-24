@@ -55,14 +55,14 @@ Based on the above heatmap we see that the jobType is most strongly correlated w
 
 Removed the JobId feature as it is has unique Id for individuals and then transformed the categorical variables into dummy variables. Performed one_hot_encoding on both train and test sets.    
 
-Tried three different models and evaluated them using Mean Squared Error. 
+Tried three different models, used 5-fold cross validation and measured MSE as evaluation metric.
 
 *	**Linear Regression**
 *	**Gradient Boosting**
 *	**Random Forest**
 
 ## Model performance
-The Random Forest model far outperformed the other approaches on the test and validation sets. 
+The Random Forest model far outperformed the other approaches. 
 *	**Random Forest** : MSE = 366.65
 *	**Linear Regression**: MSE = 384.44
 *	**Gradient Boosting**: MSE = 398.37
